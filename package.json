@@ -1,0 +1,40 @@
+{
+  "name": "kerberos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "client": "node src/client.js",
+    "server_V": "node src/server_V.js",
+    "server_AS": "node src/server_AS.js",
+    "server_TGS": "node src/server_TGS.js",
+    "test": "nyc mocha test/",
+    "lint": "eslint src/ && eslint test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeshavSaraogi/cis3319-lab-5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeshavSaraogi/cis3319-lab-5/issues"
+  },
+  "homepage": "https://github.com/KeshavSaraogi/cis3319-lab-5#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.27.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "mocha": "^10.1.0",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
